@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-links {
+  @apply  hover:scale-105 cursor-pointer underline text-xs font-black leading-5 italic underline-offset-4 py-1;
+}
+
+.blue-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-blue-900 to-black;
+}
+
+.header-font {
+    @apply font-Bebas leading-none font-black  text-center;
+}
+
+.section-links {
+    @apply font-Oswald w-full sm:w-32 uppercase underline text-center sm:p-1 cursor-pointer text-[#b0b4be] font-black hover:text-[#414f6b] hover:bg-[#b0b4be];
+}
